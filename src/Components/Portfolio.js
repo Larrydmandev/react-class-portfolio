@@ -21,15 +21,15 @@ function Portfolio(params) {
             </div>
             <div className="row m-row2">
                <div className="col-4">
-                  <img src="../images/benz.jpg" className="img-fluid img-port" />
+                  <img src="../images/tesla.jpg" className="img-fluid img-port" />
                   <button className="btn btn-primary img-btn">View More</button>
                </div>
                <div className="col-4">
-                  <img src="../images/virgin.jpg" className="img-fluid img-port" />
+                  <img src="../images/redbull.jpg" className="img-fluid img-port" />
                   <button className="btn btn-primary img-btn">View More</button>
                </div>
                <div className="col-4">
-                   <img src="../images/nike.jpg" className="img-fluid img-port" />
+                   <img src="../images/adidas.jpg" className="img-fluid img-port" />
                    <button className="btn btn-primary img-btn">View More</button>
                </div>
             </div>
