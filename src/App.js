@@ -1,33 +1,40 @@
 import logo from './logo.svg';
 import './App.css';
-import Navbar from './Components/Navbar';
 import Header from './Components/Header';
 import Progress from './Components/Progress';
 import Cards from './Components/Cards';
 import Portfolio from './Components/Portfolio';
 import Contacts from './Components/Contacts'
 import Footer from './Components/Footer';
-import Car from './Components/Class';
-import Functions from './Components/Class/Function';
-import Class from './Components/Class/Class';
-import Counter from './Components/Counter';
+import {BrowserRouter, Router, Route, Routes} from 'react-router-dom'
+import ErrorPage from './Components/ErrorPage';
+import Projects from './Components/file/Projects';
+import About from './Components/file/About';
+//for react memo
+import Home from './Components/Home';
+import Text from './Components/Text';
 
 function App() {
   
+  //end
   return (
     <div>
-      <Navbar/>
-      <Header/>
-      <Progress/> 
+      {/* <Header/> 
+      <Progress/>
       <Cards/>
       <Portfolio/>
       <Contacts/>
-      <Footer/>
-      {/* <Car/> */}
-      
-      {/* <Functions title="hello guys" real={true} array={Array}/>
-      <Class title="mr david" /> */}
-      {/* <Counter/> */}
+      <Footer/> */}
+      <BrowserRouter>
+        <Routes>
+          <Route  path='/' element={<Header/>}/>
+          <Route  path='/Projects' element={<Projects/>}/>
+          <Route  path='/About' element={<About/>}/>
+          <Route  path='*' element={<ErrorPage/>}/>
+        </Routes>
+      </BrowserRouter>
+      {/* <Text/> */}
+
     </div>
   );
 }

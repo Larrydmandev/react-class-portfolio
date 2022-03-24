@@ -3,7 +3,7 @@ import react from 'react'
 function Progress(params) {
     return(
         <section  className='bg-light  '  style={{height: '130vh'}}>
-            <h2 style={{textAlign: 'center', paddingTop: '10%'}} className= 'title'>About Me</h2>
+            <h2 style={{textAlign: 'center', paddingTop: '10%'}} className= 'title'>Profile Section</h2>
            <div className='row'>
                 <div className='col-md-4'>
                   <img src='../images/tezos.jpg' style={{width: '350px', height: '300px', paddingTop: '25%', paddingLeft: '25%' }}/>

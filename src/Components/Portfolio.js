@@ -3,7 +3,7 @@ import react from "react";
 function Portfolio(params) {
     return (
         <section style={{marginTop: '10%'}}>
-            <h2 className="title port-h2">My Portfolio</h2>
+            <h2 className="title port-h2">Brands</h2>
 
             <div className="row m-row1">
                <div className="col-4">

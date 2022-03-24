@@ -16,7 +16,6 @@ body {
   margin: 0 auto ;
   position: relative;
   line-height: 60px;
-  color: #555;
 }
 .title::after{
   content: '';
@@ -28,12 +27,10 @@ body {
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
+  background-image: url();
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-  monospace;
-}
+
 
 ul li a:hover{
   color: red;
@@ -43,28 +40,27 @@ ul li a:hover{
 
 .services-sect .services-h2
 {
-   text-align: center;
-   position: relative;
-   bottom: 20% ;
-   /* left: 35%; */
-   font-weight: bolder;
+  text-align: center;
+  position: relative;
+  bottom: 20% ;
+  /* left: 35%; */
+  font-weight: bolder;
 }
 
 .services-sect .services-div1
 {
-    flex-direction: row;
-    display: flex;
-    
+  flex-direction: row;
+  display: flex;
 }
 
 /* first div start */
 
 .services-div1
 {
-    display: flex;
-   justify-content: center;
-   padding: 10px;
-   text-align: center;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  text-align: center;
 }
 
 .services-div1 .services-p
@@ -73,19 +69,19 @@ ul li a:hover{
   text-align: center;
 }
 .services-div1 .services-h4{
-    font-size: 20px;
-    font-weight: 800;
+  font-size: 20px;
+  font-weight: 800;
 }
 
 .services-div1 .services-p{
-    width: 60%;
-    display: flex;
-    /* justify-content: center; */
-    align-items: center ;
-    font-size: 12px;
-    position: relative;
-    left: 20%;
-    text-align: center;
+  width: 60%;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center ;
+  font-size: 12px;
+  position: relative;
+  left: 20%;
+  text-align: center;
 
 }
 
@@ -96,39 +92,39 @@ ul li a:hover{
 
 .services-div2
 {
-    display: flex;
-   justify-content: center;
-   padding: 10px; 
-   text-align: center;   
+  display: flex;
+  justify-content: center;
+  padding: 10px; 
+  text-align: center;   
 }
 
 
 .services-div2 .services-h4{
-    font-size: 20px;
-    font-weight: 800;
+  font-size: 20px;
+  font-weight: 800;
 }
 
 .services-div2 .services-p{
-    width: 60%;
-    display: flex;
-    /* justify-content: center; */
-    align-items: center;
-    font-size: 12px;
-    /* font-weight: 700; */
-    position: relative;
-    left: 20%;
-    text-align: center;
+  width: 60%;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  font-size: 12px;
+  /* font-weight: 700; */
+  position: relative;
+  left: 20%;
+  text-align: center;
 }
 
 /* second div end */
 
 .services-div1 .services
 {
-    background-color: rgba(247,245,249,255);
-    /* height: 50%; */
-    padding: 5%;
-    margin: 10px;
-    border-radius: 10%;
+  background-color: rgba(247,245,249,255);
+  /* height: 50%; */
+  padding: 5%;
+  margin: 10px;
+  border-radius: 10%;
 }
 
 .services-div2 .services
